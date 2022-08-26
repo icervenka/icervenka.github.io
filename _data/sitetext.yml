@@ -4,7 +4,7 @@ en: &DEFAULT_EN
   header:
     title: Welcome to my portfolio
     text: It's Nice To Meet You
-    button: Tell Me More
+    # button: Tell Me More
     buttonlink: "#services"
 
   services:
@@ -111,22 +111,22 @@ en: &DEFAULT_EN
     people:
       - name: "Bass Guitar"
         role: "And guitar when time permits"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/hobbies/bass_guitar.jpg
       - name: "Volleyball"
         role: "But I will not say no to any ball sport"
-        image: assets/img/team/2.jpg
+        image: assets/img/hobbies/volleyball.jpg
       - name: "Programming"
         role: "Why spend doing something 6 minutes by hand, when you can fail to automate it in 6 hours."
-        image: assets/img/team/500x500.jpg
+        image: assets/img/hobbies/programming.jpg
       - name: "Crafting"
         role: "3D printing, Raspberry PI, Embroidery, Crocheting and many more ..."
-        image: assets/img/team/500x500.jpg
+        image: assets/img/hobbies/crafting.jpg
       - name: "Graphical Design"
         role: ""
-        image: assets/img/team/500x500.jpg
-      - name: "Crafting"
-        role: ""
-        image: assets/img/team/500x500.jpg
+        image: assets/img/hobbies/graphical_design.jpg
+      - name: "Computer Games"
+        role: "Roguelikes, Roguelites, Survival Games"
+        image: assets/img/hobbies/computer_games.jpg
 
   contact:
     title: "Contact Me"
