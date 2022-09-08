@@ -12,15 +12,19 @@ en: &DEFAULT_EN
     text: "Who am I and what is it that I try to do"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "[Stockholm, Sweden](https://www.google.com/maps/place/Stockholm/@59.3260664,17.84163,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808)"
+        icon: fa-solid fa-map-location
+      - title: "[igor.cervenka@gmail.com](mailto:igor.cervenka@gmail.com)"
+        icon: fa-solid fa-envelope
+      - title: "[igorcervenka.com](http://igorcervenka.com/)"
+        icon: fa-brands fa-chrome
+      - title: "[igorcervenka](https://www.linkedin.com/in/igorcervenka/)"
+        icon: fa-brands fa-linkedin
+      - title: "[github.com/icervenka](https://github.com/icervenka)"
+        icon: fa-brands fa-github
+      - title: "[Published articles](https://scholar.google.com/citations?user=PngPexoAAAAJ)"
+        icon: fa-solid fa-file-lines  
+
 
   portfolio:
     title: "Portfolio"
@@ -106,7 +110,7 @@ en: &DEFAULT_EN
   team:
     title: "HOBBIES"
     text: "What I entertain myself with in my free time"
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: ""
     section: team
     people:
       - name: "Bass Guitar"
