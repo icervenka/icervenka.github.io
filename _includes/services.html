@@ -13,7 +13,7 @@
     </div>
 
     <div class="row text-center">
-      <div class="col-md-6 pr-5">
+      <div class="col-md-6 col-lg-8">
         <img src="../assets/img/stockholm.jpg" style="width: 100%; border-radius: 10px 10px 10px 10px;" class="mb-5" alt="">
         <p style="text-align: left; text-justify: auto;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -24,20 +24,18 @@
           tellus. Et magnis dis parturient montes.
         </p>
       </div>
-      <div class="col-md-6 pl-5">
+      <div class="col-md-6 col-lg-4">
+      <ul style="list-style-type: none;" class="p-0">
         {% for service in site.data.sitetext[site.locale].services.list %}
-        <div style="clear: both; padding-bottom: 5em;">
-          <div style="float: left;">
-            <span class="fa-stack fa-2x">
+        <li style="clear:both;" class="pt-1 pb-1">
+            <span class="fa-stack fa-2x" style="float: left;">
               <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
             </span>
-          </div>
-          <div style="float: left;">
-            <h5 class="service-heading">{{ service.title | markdownify }}</h5>
-          </div>
-        </div>
+            <h6 style="float: left;" class="service-heading">{{ service.title | markdownify }}</h6>
+      </li>
         {% endfor %}
+      </ul>
       </div>
     </div>
 

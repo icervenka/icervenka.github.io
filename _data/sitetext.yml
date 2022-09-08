@@ -37,9 +37,18 @@ en: &DEFAULT_EN
     text: "I try to spend time to learn something new, whenever the opportunity presents itself"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     biology_skills: 
-      - name:
-      - icon: 
-      - value:
+      - name: "Molecular Biology"
+        icon: 
+        value: 89
+      - name: "Cloning"
+        icon: 
+        value: 93
+      - name: "Bioinformatics"
+        icon: 
+        value: 75
+      - name: "Animal Work"
+        icon: 
+        value: 50
     bioinformatic_skills: 
       - name:
       - icon: 
