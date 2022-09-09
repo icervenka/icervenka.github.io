@@ -1,0 +1,177 @@
+header.masthead {
+    color: #2F4251;
+
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        .intro-text {
+            padding-top: 150px;
+            padding-bottom: 500px;
+        }
+    }
+}
+
+#mainNav {
+    background-color: #CDC2B9;
+
+    .navbar-toggler {
+        color: white;
+    }
+
+    .navbar-brand {
+        color: #2F4251;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: #2F4251;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        background-color: transparent;
+
+        &.navbar-shrink {
+            padding-top: 0;
+            padding-bottom: 0;
+            background-color: #CDC2B9;
+
+            .navbar-brand {
+                font-size: 1.25em;
+                padding: 12px 0;
+            }
+        }
+    }
+}
+
+.page-section h3.section-subheading {
+    font-weight: 300;
+    margin-bottom: 50px;
+    @include heading-font;
+}
+
+.profile-image {
+    width: 100%; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.profile-text {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.progress-bar-color-0 {
+    background-color: #4685B0;
+}
+
+.progress-bar-color-1 {
+    background-color: #B1A295;
+}
+
+.progress-bar-color-2 {
+    background-color: #6CA8C5;
+}
+
+.progress-bar-color-3 {
+    background-color: #4A545F;
+}
+
+.skill-heading {
+    color: #2F4251;
+    text-align: center;
+}
+
+.skill-subheading {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.card-slider figure {
+    margin: 0;
+    padding: 0;
+}
+
+.card-slider img {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-slider {
+    width: 100%;
+    margin: 3em auto 0;
+    overflow: hidden;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.card-slider-header {
+    /* flex: 1 1 100%; */
+    padding: 0 0 2em 0;
+}
+
+.card-slider .inner {
+    overflow: hidden;
+    flex-wrap: wrap;
+    /* flex: 1 1 75%; */
+}
+
+.card-slider ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    transition: left 200ms ease;
+    left: 0;
+}
+
+.card-slider ul li {
+    list-style: none;
+    position: relative;
+    flex: 1 0 350px;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+    padding: 0 2em 0 0;
+}
+
+.slider-nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-nav .disabled {
+    opacity: 0.4;
+}
+
+.publication-image {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.publication-title {
+    font-size: large;
+    font-weight: 700;
+}
+
+.publication-bibliography {
+    color: gray;
+}
