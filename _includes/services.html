@@ -14,8 +14,8 @@
 
     <div class="row text-center">
       <div class="col-md-6 col-lg-8">
-        <img src="../assets/img/stockholm.jpg" style="width: 100%; border-radius: 10px 10px 10px 10px;" class="mb-5" alt="">
-        <p style="text-align: left; text-justify: auto;">
+        <img src="../assets/img/stockholm.jpg" class="mb-5 profile-image" alt="">
+        <p class="profile-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor at. Leo vel orci porta non pulvinar.
           Pellentesque eu tincidunt tortor aliquam. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum.
@@ -25,17 +25,17 @@
         </p>
       </div>
       <div class="col-md-6 col-lg-4">
-      <ul style="list-style-type: none;" class="p-0">
-        {% for service in site.data.sitetext[site.locale].services.list %}
-        <li style="clear:both;" class="pt-1 pb-1">
-            <span class="fa-stack fa-2x" style="float: left;">
+        <ul style="list-style-type: none;" class="p-0">
+          {% for service in site.data.sitetext[site.locale].services.list %}
+          <li class="clearfix pt-1 pb-1">
+            <span class="fa-stack fa-2x float-left">
               <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+              <i class="{{ service.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
             </span>
-            <h6 style="float: left;" class="service-heading">{{ service.title | markdownify }}</h6>
-      </li>
-        {% endfor %}
-      </ul>
+            <h6 class="service-heading float-left">{{ service.title | markdownify }}</h6>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
 

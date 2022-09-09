@@ -1,3 +1,13 @@
+.profile-image {
+    width: 100%; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.profile-text {
+    text-align: justify;
+    text-justify: auto;
+}
+
 .progress-bar-color-0 {
     background-color: #4685B0;
 }
@@ -5,7 +15,6 @@
 .progress-bar-color-1 {
     background-color: #B1A295;
 }
-
 
 .progress-bar-color-2 {
     background-color: #6CA8C5;
@@ -20,12 +29,19 @@
     text-align: center;
 }
 
-figure {
+.skill-subheading {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.card-slider figure {
     margin: 0;
     padding: 0;
 }
 
-img {
+.card-slider img {
     display: inline-block;
     width: auto;
     max-width: 100%;
@@ -81,6 +97,8 @@ img {
 .slider-nav .disabled {
     opacity: 0.4;
 }
+
+
 
 .publication-image {
     display: inline-block;

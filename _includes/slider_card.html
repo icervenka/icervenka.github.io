@@ -1,9 +1,9 @@
 <li>
     <figure>
-        <img class="publication-image" src="{{ include.pub.image }}">
+        <a href="{{ include.pub.link }}" target="_blank"><img class="publication-image" src="{{ include.pub.image }}"></a>
     </figure>
     <div>
-        <p class="publication-title">{{ include.pub.title }}</p>
+        <a href="{{ include.pub.link }}" target="_blank"><p class="publication-title">{{ include.pub.title }} <i class="fa-solid fa-right-from-bracket"></i></p></a>
         <p class="publication-author-list">{{ include.pub.author_list }}</p>
         <p class="publication-bibliography">{{ include.pub.bibliography }}</p>
     </div>

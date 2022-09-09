@@ -39,7 +39,7 @@ en: &DEFAULT_EN
     biology_skills: 
       title: "Biology Skills"
       pbcolor: "0"
-      text: ""
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
       list:
         - name: "Molecular Biology"
           icon: 
@@ -62,7 +62,7 @@ en: &DEFAULT_EN
     bioinformatic_skills: 
       title: "Bioinformatic Skills"
       pbcolor: "1"
-      text: ""
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
       list:
         - name: "Data Processing"
           icon: 
@@ -88,7 +88,7 @@ en: &DEFAULT_EN
     programming_skills: 
       title: "Programming Skills"
       pbcolor: "2"
-      text: ""
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
       list:
         - name: "R"
           icon: 
@@ -108,7 +108,7 @@ en: &DEFAULT_EN
     language_skills: 
       title: "Language"
       pbcolor: "3"
-      text: ""
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
       list:
         - name: "Slovak"
           icon: 
@@ -185,14 +185,17 @@ en: &DEFAULT_EN
         title: "Isoforms of GPR35 have distinct extracellular N-termini that allosterically modify receptor-transducer coupling and mediate intracellular pathway bias"
         author_list: "Schihada H, Klompstra TM, Humphrys LJ, Cervenka I, Dadvar S, Kolb P, Ruas JL, Schulte G."
         bibliography: "J Biol Chem. 2022 Aug 4;298(9):102328. doi: 10.1016/j.jbc.2022.102328."
+        link: ""
       - image: "assets/img/paper_placeholder.jpg"
         title: "Muscle-secreted neurturin couples myofiber oxidative metabolism and slow motor neuron identity"
         author_list: "Correia JC, Kelahmetoglu Y, Jannig PR, Schweingruber C, Shvaikovskaya D, Zhengye L, Cervenka I, Khan N, Stec M, Oliveira M, Nijssen J, Martínez-Redondo V, Ducommun S, Azzolini M, Lanner JT, Kleiner S, Hedlund E, Ruas JL."
         bibliography: "Cell Metab. 2021 Nov 2;33(11):2215-2230.e8. doi: 10.1016/j.cmet.2021.09.003. Epub 2021 Sep 29."
+        link: ""
       - image: "assets/img/paper_placeholder.jpg"
         title: "Effects of Tryptophan Supplementation and Exercise on the Fate of Kynurenine Metabolites in Mice and Humans"
         author_list: "Valente-Silva P, Cervenka I, Ferreira DMS, Correia JC, Edman S, Horwath O, Heng B, Chow S, Jacobs KR, Guillemin GJ, Blomstrand E, Ruas JL."
         bibliography: "Metabolites. 2021 Aug 3;11(8):508. doi: 10.3390/metabo11080508."
+        link: ""
       - image: "assets/img/paper_placeholder.jpg"
         title: "Comparative Analysis of Skeletal Muscle Transcriptional Signatures Associated With Aerobic Exercise Capacity or Response to Training in Humans and Rats"
         author_list: "Kelahmetoglu Y, Jannig PR, Cervenka I, Koch LG, Britton SL, Zhou J, Wang H, Robinson MM, Nair KS, Ruas JL."
@@ -201,10 +204,12 @@ en: &DEFAULT_EN
         title: "LIM and cysteine-rich domains 1 (LMCD1) regulates skeletal muscle hypertrophy, calcium handling, and force"
         author_list: "Ferreira DMS, Cheng AJ, Agudelo LZ, Cervenka I, Chaillou T, Correia JC, Porsmyr-Palmertz M, Izadi M, Hansson A, Martínez-Redondo V, Valente-Silva P, Pettersson-Klein AT, Estall JL, Robinson MM, Nair KS, Lanner JT, Ruas JL."
         bibliography: "Skelet Muscle. 2019 Oct 31;9(1):26. doi: 10.1186/s13395-019-0214-1."
+        link: ""
       - image: "assets/img/paper_placeholder.jpg"
         title: "Skeletal muscle PGC-1α1 reroutes kynurenine metabolism to increase energy efficiency and fatigue-resistance"
         author_list: "Agudelo LZ, Ferreira DMS, Dadvar S, Cervenka I, Ketscher L, Izadi M, Zhengye L, Furrer R, Handschin C, Venckunas T, Brazaitis M, Kamandulis S, Lanner JT, Ruas JL."
         bibliography: "Nat Commun. 2019 Jun 24;10(1):2767. doi: 10.1038/s41467-019-10712-0."
+        link: ""
   
   # clients:
   #   section: clients

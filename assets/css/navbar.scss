@@ -1,0 +1,21 @@
+---
+---
+
+@import "agency";
+
+#mainNav {
+    background-color: #CDC2B9;
+    .navbar-toggler {
+      color: white;
+    }
+    .navbar-brand {
+      color: #2F4251;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: #2F4251;
+        }
+      }
+    }
+  }
