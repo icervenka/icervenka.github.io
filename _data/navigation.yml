@@ -10,6 +10,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Career"
       section: timeline
+    - title: "Publications"
+      section: publications
     - title: "Hobbies"
       section: team
     - title: "Contact"

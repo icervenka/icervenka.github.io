@@ -3,18 +3,98 @@
 }
 
 .progress-bar-color-1 {
-    background-color: #4A545F;
+    background-color: #B1A295;
 }
+
 
 .progress-bar-color-2 {
     background-color: #6CA8C5;
 }
 
 .progress-bar-color-3 {
-    background-color: #B1A295;
+    background-color: #4A545F;
 }
 
 .skill-heading {
     color: #2F4251;
     text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-slider {
+    width: 100%;
+    margin: 3em auto 0;
+    overflow: hidden;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.card-slider-header {
+    /* flex: 1 1 100%; */
+    padding: 0 0 2em 0;
+}
+
+.card-slider .inner {
+    overflow: hidden;
+    flex-wrap: wrap;
+    /* flex: 1 1 75%; */
+}
+
+.card-slider ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    transition: left 200ms ease;
+    left: 0;
+}
+
+.card-slider ul li {
+    list-style: none;
+    position: relative;
+    flex: 1 0 350px;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+    padding: 0 2em 0 0;
+}
+
+.slider-nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-nav .disabled {
+    opacity: 0.4;
+}
+
+.publication-image {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.publication-title {
+    font-size: large;
+    font-weight: 700;
+}
+
+.publication-bibliography {
+    color: gray;
 }
