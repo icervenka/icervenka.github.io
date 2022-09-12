@@ -5,7 +5,7 @@ image: assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Clams-vis
+  title: Workflow for Gene Enhancer Detection
   subtitle: Data visualisation
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---

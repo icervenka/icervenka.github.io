@@ -8,7 +8,7 @@
                     default:
                     "Services" }}</h2>
                 {% if site.data.sitetext[site.locale].publications.text %}
-                <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].publications.text }}</h3>
+                <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].publications.text | markdownify }}</h3>
                 {% endif %}
             </div>
         </div>
