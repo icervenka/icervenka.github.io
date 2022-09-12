@@ -28,7 +28,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Some of the professional and hobby projects that I have worked on. For a more complete and in-depth list, please [visit my website](http://igorcervenka.com/)"
+    text: "Some of the professional and hobby projects that I have worked on. For a more complete and in-depth list, please visit [my website](http://igorcervenka.com/) and my [github page](https://github.com/icervenka)"
     section: portfolio
     closebutton: "Close Project"
 
@@ -105,7 +105,7 @@ en: &DEFAULT_EN
         - name: "Java"
           icon: 
           value: 35
-        - name: "Vim"
+        - name: "Vim (can only exit)"
           icon: 
           value: 5
     other_skills: 
@@ -141,10 +141,10 @@ en: &DEFAULT_EN
           value: 94
         - name: "German"
           icon: 
-          value: 35
+          value: 40
         - name: "Swedish"
           icon: 
-          value: 25
+          value: 35
     personality_skills: 
       title: "Personality"
       pbcolor: "0"
