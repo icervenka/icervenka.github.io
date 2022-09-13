@@ -53,6 +53,14 @@ header.masthead {
     }
 }
 
+@media (min-width: 768px) {
+    .timeline {
+        >li {
+            margin-bottom: 30px;
+        }
+    }
+}
+
 .page-section h3.section-subheading {
     font-weight: 300;
     margin-bottom: 50px;
@@ -60,7 +68,7 @@ header.masthead {
 }
 
 .profile-image {
-    width: 100%; 
+    width: 100%;
     border-radius: 10px 10px 10px 10px;
 }
 
