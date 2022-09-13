@@ -294,17 +294,13 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://www.linkedin.com/in/igorcervenka/
-        icon: "fab fa-linkedin-in"
-        type: "fa"
+        icon: "assets/img/icon_linkedin_in.svg"
       - url: https://github.com/icervenka
-        icon: "fab fa-github"
-        type: "fa"
-      - url: https://github.com/icervenka
-        icon: "fab fa-github"
-        type: "custom"
-      - url: https://github.com/icervenka
-        icon: "fab fa-github"
-        type: "custom"
+        icon: "assets/img/icon_github.svg"
+      - url: https://pubmed.ncbi.nlm.nih.gov/collections/60627539/?sort=pubdate
+        icon: "assets/img/icon_pubmed.svg"
+      - url: https://scholar.google.com/citations?user=PngPexoAAAAJ
+        icon: "assets/img/icon_google_scholar.svg"
       
 en-US:
   <<: *DEFAULT_EN

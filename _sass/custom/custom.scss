@@ -61,25 +61,10 @@ header.masthead {
     }
 }
 
-ul.social-buttons {
-    margin-bottom: 0;
-    li {
-      a {
-        font-size: 40px;
-        line-height: 50px;
-        color: $gray-900;
-        border-radius: 10%;
-        // outline: none;
-        background-color: white;
-        &:active,
-        &:focus,
-        &:hover {
-          background-color: $primary;
-          color: white;
-        }
-      }
-    }
-  }
+img.social {
+    min-height: 30px;
+    padding: 0 1em 0 0;
+}
 
 .page-section h3.section-subheading {
     font-weight: 300;
