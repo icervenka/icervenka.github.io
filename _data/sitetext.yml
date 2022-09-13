@@ -9,7 +9,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Profile"
-    text: "Who am I and what is it that I try to do"
+    text: "A little something about me"
     section: services
     list:
       - title: "[Stockholm, Sweden](https://www.google.com/maps/place/Stockholm/@59.3260664,17.84163,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808)"
@@ -34,12 +34,13 @@ en: &DEFAULT_EN
 
   about:
     title: "Skills"
-    text: "I try to spend time to learn something new, whenever the opportunity presents itself"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "I try to find time to learn something new whenever the opportunity presents itself"
+    body: ""
+    section: about
     biology_skills: 
       title: "Biology Skills"
       pbcolor: "0"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam."
+      text: ""
       list:
         - name: "Molecular Biology"
           icon: 
@@ -62,7 +63,7 @@ en: &DEFAULT_EN
     bioinformatic_skills: 
       title: "Bioinformatic Skills"
       pbcolor: "1"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam."
+      text: ""
       list:
         - name: "Data Processing"
           icon: 
@@ -88,7 +89,7 @@ en: &DEFAULT_EN
     programming_skills: 
       title: "Programming Skills"
       pbcolor: "2"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam."
+      text: ""
       list:
         - name: "R"
           icon: 
@@ -111,7 +112,7 @@ en: &DEFAULT_EN
     other_skills: 
       title: "Other Skills"
       pbcolor: "3"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam."
+      text: ""
       list:
         - name: "Adobe Illustrator"
           icon: 
@@ -128,7 +129,7 @@ en: &DEFAULT_EN
     language_skills: 
       title: "Language"
       pbcolor: "0"
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam."
+      text: ""
       list:
         - name: "Slovak"
           icon: 
@@ -150,26 +151,27 @@ en: &DEFAULT_EN
       pbcolor: "0"
       text: ""
       list:
-        - name: "Molecular Biology"
+        - name: "Team Player"
           icon: 
-          value: 89
-        - name: "Cloning"
+        - name: "Problem Solver"
           icon: 
-          value: 93
-        - name: "Bioinformatics"
+        - name: "Responsible"
           icon: 
-          value: 75
-        - name: "Animal Work"
+        - name: "Good Comunicator"
           icon: 
-          value: 50
-    section: about
-
+        - name: "Creative"
+          icon: 
+        - name: "Adaptable"
+          icon: 
+        - name: "Adaptable"
+          icon: 
+        - name: "Adaptable"
+          icon: 
+    
   timeline:
     title: "Career"
-    text: "My educational and professional journey"
+    text: "My educational and professional journey so far"
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
       - title: "B.Sc. Degree at Masaryk University in Czechia"
         year: "2005-2008"
@@ -191,7 +193,6 @@ en: &DEFAULT_EN
         year: "2010-2014"
         desc: "**Dept. of Animal Physiology, Masaryk University**. Responsible for creating and maintaing department, conference and other websites. Technical support for computers connected to scientific instruments."
         image: assets/img/career/career_webmaster.jpg
-        # you can enforce the alignment
       - title: "Postdoctoral fellow"
         year: "2015-present"
         desc: "Laboratory of Prof. Jorge Ruas, Karolinska Institutet, Sweden."
@@ -248,27 +249,9 @@ en: &DEFAULT_EN
         bibliography: "Mol Cell Biol. 2011 Jan;31(1):179-89. doi: 10.1128/MCB.00550-10. Epub 2010 Oct 25."
         link: "https://journals.asm.org/doi/10.1128/MCB.00550-10"
   
-  # clients:
-  #   section: clients
-  #   max-height: 300px
-  #   horizontal-scrolling: "" #"yes/no"
-  #   list:
-  #     - title: "envato"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/envato.jpg
-  #     - title: "designmodo"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/designmodo.jpg
-  #     - title: "themeforest"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/themeforest.jpg
-  #     - title: "Creative Market"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/creative-market.jpg
-
   team:
     title: "HOBBIES"
-    text: "What I entertain myself with in my free time"
+    text: "What I like to spend my free time on"
     subtext: ""
     section: team
     people:
@@ -310,10 +293,19 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/igorcervenka/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+        type: "fa"
+      - url: https://github.com/icervenka
         icon: "fab fa-github"
+        type: "fa"
+      - url: https://github.com/icervenka
+        icon: "fab fa-github"
+        type: "custom"
+      - url: https://github.com/icervenka
+        icon: "fab fa-github"
+        type: "custom"
+      
 en-US:
   <<: *DEFAULT_EN
 en-CA:

@@ -61,6 +61,26 @@ header.masthead {
     }
 }
 
+ul.social-buttons {
+    margin-bottom: 0;
+    li {
+      a {
+        font-size: 40px;
+        line-height: 50px;
+        color: $gray-900;
+        border-radius: 10%;
+        // outline: none;
+        background-color: white;
+        &:active,
+        &:focus,
+        &:hover {
+          background-color: $primary;
+          color: white;
+        }
+      }
+    }
+  }
+
 .page-section h3.section-subheading {
     font-weight: 300;
     margin-bottom: 50px;
