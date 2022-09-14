@@ -2,8 +2,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to my portfolio
-    text: It's Nice To Meet You
+    title: Hey, I'm IGOR
+    text: "molecular biologist - bioinformatician"
     # button: Tell Me More
     buttonlink: "#services"
 

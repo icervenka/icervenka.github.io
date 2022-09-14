@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Igor Cervenka
 email      : igor.cervenka@gmail.com
-description: "Site description"
+description: "Welcome to my personal webpage"
 author     : Igor Cervenka
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

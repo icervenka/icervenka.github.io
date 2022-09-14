@@ -1,9 +1,30 @@
+// Custom Images
+
 header.masthead {
     color: #2F4251;
-
+    background-position: center bottom;
+    background-image: url("#{$header-image}");
     .intro-text {
         padding-top: 100px;
-        padding-bottom: 300px;
+        padding-bottom: 150px;
+
+        .intro-lead-in {
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 34px;
+            margin-bottom: 25px;
+            @include heading-font;
+        }
+
+        .intro-heading {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 50px;
+            font-weight: 200;
+            margin-bottom: 22px;
+            @include heading-font;
+        }
     }
 }
 
@@ -11,7 +32,38 @@ header.masthead {
     header.masthead {
         .intro-text {
             padding-top: 150px;
-            padding-bottom: 500px;
+            padding-bottom: 200px;
+            .intro-lead-in {
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 25px;
+                @include heading-font;
+              }
+              .intro-heading {
+                font-size: 28px;
+                font-weight: 200;
+                line-height: 28px;
+                margin-bottom: 50px;
+                @include heading-font;
+              }
+        }
+    }
+}
+
+@media (min-width: 1152px) {
+    header.masthead {
+        .intro-text {
+            padding-bottom: 300px;
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+    header.masthead {
+        .intro-text {
+            padding-bottom: 400px;
         }
     }
 }
