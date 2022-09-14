@@ -24,6 +24,8 @@ en: &DEFAULT_EN
         icon: fa-brands fa-github
       - title: "[Published articles](https://scholar.google.com/citations?user=PngPexoAAAAJ)"
         icon: fa-solid fa-file-lines  
+      - title: "[Current CV](assets/img/CV_igor_cervenka_2022.pdf)"
+        icon: fa-solid fa-file-pdf  
 
 
   portfolio:

@@ -4,7 +4,7 @@ white: "#FFFFFF"
 black: "#000"
 
 #Image Customization
-header-image: "../img/hero.jpg"
+header-image: "../img/hero_background.jpg"
 contact-image: "../img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
