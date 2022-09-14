@@ -41,132 +41,102 @@ en: &DEFAULT_EN
       title: "Biology Skills"
       pbcolor: "0"
       text: ""
+      icon: "fa-solid fa-microscope"
       list:
         - name: "Molecular Biology"
-          icon: 
           value: 96
         - name: "Biochemistry"
-          icon: 
           value: 94
         - name: "Bioinformatics"
-          icon: 
           value: 92
         - name: "Cell Culture"
-          icon: 
           value: 88
         - name: "Cloning"
-          icon: 
           value: 80
         - name: "Animal Experiments"
-          icon: 
           value: 60
     bioinformatic_skills: 
       title: "Bioinformatic Skills"
       pbcolor: "1"
       text: ""
+      icon: "fa-solid fa-computer"
       list:
         - name: "Data Processing"
-          icon: 
           value: 96
         - name: "Data Visualisation"
-          icon: 
           value: 92
         - name: "Workflow Automation"
-          icon: 
           value: 88
         - name: "NGS Analysis"
-          icon: 
           value: 82
         - name: "Image Analysis"
-          icon: 
           value: 70 
         - name: "Machine Learning"
-          icon: 
           value: 65 
         - name: "Artificial Intelligence"
-          icon: 
           value: 50 
     programming_skills: 
       title: "Programming Skills"
       pbcolor: "2"
       text: ""
+      icon: "fa-solid fa-code"
       list:
         - name: "R"
-          icon: 
           value: 96
         - name: "Python"
-          icon: 
           value: 90
         - name: "PHP - HTML - CSS"
-          icon: 
           value: 80
         - name: "Unix Shell"
-          icon: 
           value: 65
         - name: "Java"
-          icon: 
           value: 35
         - name: "Vim (can only exit)"
-          icon: 
           value: 5
     other_skills: 
       title: "Other Skills"
       pbcolor: "3"
       text: ""
+      icon: "fa-solid fa-gears"
       list:
         - name: "Adobe Illustrator"
-          icon: 
           value: 90
         - name: "Adobe Photoshop"
-          icon: 
           value: 82
         - name: "ImageJ - Fiji"
-          icon: 
           value: 80
         - name: "Git"
-          icon: 
           value: 60
     language_skills: 
       title: "Language"
       pbcolor: "0"
       text: ""
+      icon: "fa-solid fa-comments"
       list:
         - name: "Slovak"
-          icon: 
           value: 100
         - name: "Czech"
-          icon: 
           value: 96
         - name: "English"
-          icon: 
           value: 94
         - name: "German"
-          icon: 
           value: 40
         - name: "Swedish"
-          icon: 
           value: 35
     personality_skills: 
       title: "Personality"
       pbcolor: "0"
       text: ""
+      icon: "fa-solid fa-person"
       list:
         - name: "Team Player"
-          icon: 
         - name: "Problem Solver"
-          icon: 
         - name: "Responsible"
-          icon: 
         - name: "Good Comunicator"
-          icon: 
         - name: "Creative"
-          icon: 
         - name: "Adaptable"
-          icon: 
         - name: "Adaptable"
-          icon: 
         - name: "Adaptable"
-          icon: 
     
   timeline:
     title: "Career"
@@ -264,7 +234,7 @@ en: &DEFAULT_EN
       - name: "Programming"
         role: "Why spend doing something 6 minutes by hand, when you can fail to automate it in 6 hours."
         image: assets/img/hobbies/programming.jpg
-      - name: "Crafting"
+      - name: "Tinkering"
         role: "3D printing, Raspberry PI, Embroidery, Crocheting and many more ..."
         image: assets/img/hobbies/crafting.jpg
       - name: "Graphical Design"
