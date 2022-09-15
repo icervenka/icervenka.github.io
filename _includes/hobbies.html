@@ -1,0 +1,30 @@
+<!-- Hobbies -->
+<section class="page-section bg-light" id="{{ site.data.sitetext[site.locale].hobbies.section | default: "hobbies" }}">
+<div class="container">
+  <div class="row">
+	<div class="col-lg-12 text-center">
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].hobbies.title }}</h2>
+	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].hobbies.text }}</h3>
+	</div>
+  </div>
+  <div class="row">
+  {% for hobby in site.data.sitetext[site.locale].hobbies.list %}
+	<div class="col-sm-4">
+	  <div class="team-member">
+		<img class="mx-auto rounded-circle" src="{{ hobby.image }}" alt="">
+		<h4>{{ hobby.name }}</h4>
+		<p class="text-muted">{{ hobby.role }}</p>
+		<ul class="list-inline social-buttons">
+		</ul>
+	  </div>
+	</div>
+  {% endfor %}
+  </div>
+  <div class="row">
+	<div class="col-lg-8 mx-auto text-center">
+	  <div class="large text-muted">{{ site.data.sitetext[site.locale].hobbies.subtext | markdownify }}</div>
+	</div>
+  </div>
+</div>
+</section>
+<!-- End Hobbies -->

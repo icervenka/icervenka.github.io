@@ -1,31 +1,38 @@
 <!-- About -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: " about" }}">
   <div class="container">
+
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default:
+          "About" }}</h2>
+        {% if site.data.sitetext[site.locale].about.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text }}</h3>
+        {% endif %}
       </div>
     </div>
 
-    {% assign sk = site.data.sitetext[site.locale].about.biology_skills %}
-    {% include skills.html  skills = sk %}
-
-    {% assign sk = site.data.sitetext[site.locale].about.bioinformatic_skills %}
-    {% include skills.html  skills = sk %}
-
-    {% assign sk = site.data.sitetext[site.locale].about.programming_skills %}
-    {% include skills.html  skills = sk %}
-
-    {% assign sk = site.data.sitetext[site.locale].about.other_skills %}
-    {% include skills.html  skills = sk %}
-
-    {% assign sk = site.data.sitetext[site.locale].about.language_skills %}
-    {% include skills.html  skills = sk %}
-
-    {% assign sk = site.data.sitetext[site.locale].about.personality_skills %}
-    {% include skills_personality.html  skills = sk %}
-    
+    <div class="row text-center">
+      <div class="col-md-6 col-lg-8">
+        <img src="../assets/img/brno_stockholm.jpg" class="mb-5 profile-image" alt="">
+        <p class="profile-text">
+          {{ site.data.sitetext[site.locale].about.profile_text | markdownify }}
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <ul style="list-style-type: none;" class="p-0">
+          {% for service in site.data.sitetext[site.locale].about.list %}
+          <li class="clearfix pt-1 pb-1">
+            <span class="fa-stack fa-2x float-left">
+              <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h6 class="service-heading float-left">{{ service.title | markdownify }}</h6>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
   </div>
 </section>

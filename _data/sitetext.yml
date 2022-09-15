@@ -5,12 +5,12 @@ en: &DEFAULT_EN
     title: Hey, I'm IGOR
     text: "molecular biologist - bioinformatician"
     # button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
-  services:
+  about:
     title: "Profile"
     text: "A little something about me"
-    section: services
+    section: about
     list:
       - title: "[Stockholm, Sweden](https://www.google.com/maps/place/Stockholm/@59.3260664,17.84163,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808)"
         icon: fa-solid fa-map-location
@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         icon: fa-solid fa-file-lines  
       - title: "[Current CV](assets/img/CV_igor_cervenka_2022.pdf)"
         icon: fa-solid fa-file-pdf  
-
+    profile_text: ""
 
   portfolio:
     title: "Portfolio"
@@ -34,11 +34,11 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  about:
+  skills:
     title: "Skills"
     text: "I try to find time to learn something new whenever the opportunity presents itself"
     body: ""
-    section: about
+    section: skills
     biology_skills: 
       title: "Biology Skills"
       pbcolor: "0"
@@ -151,7 +151,7 @@ en: &DEFAULT_EN
         image: assets/img/career/career_bsc.jpg
       - title: "Research Assistant, "
         year: "2007-2014"
-        desc: "Laboratory of Prof. Vitezslav Bryja, Masaryk University, Czechia"
+        desc: "**Laboratory of Prof. Vitezslav Bryja, Masaryk University, Czechia**. Worked on several projects, including WNT signaling cross-talk, regulation of Dishevelled phosphorylation, and novel aspects of WNT signaling in centrosomal biology."
         image: assets/img/career/career_research_assistant.jpg
       - title: "M.Sc. Degree at Masaryk University in Czechia"
         year: "2008-2010"
@@ -163,18 +163,17 @@ en: &DEFAULT_EN
         image: assets/img/career/career_phd.jpg
       - title: "IT Consultant and Webmaster"
         year: "2010-2014"
-        desc: "**Dept. of Animal Physiology, Masaryk University**. Responsible for creating and maintaing department, conference and other websites. Technical support for computers connected to scientific instruments."
+        desc: "**Dept. of Animal Physiology, Masaryk University, Czechia.** Responsible for creating and maintaing department, conference and other websites. Technical support for computers connected to scientific instruments."
         image: assets/img/career/career_webmaster.jpg
       - title: "Postdoctoral fellow"
         year: "2015-present"
-        desc: "Laboratory of Prof. Jorge Ruas, Karolinska Institutet, Sweden."
+        desc: "**Laboratory of Prof. Jorge Ruas, Karolinska Institutet, Sweden.** Working on several interesting projects in exercise physilogy, skeletal muscle size and function, and metabolism. For more details, please visit [ruaslab.science](https://www.ruaslab.science/team/Cervenka)"
         image: assets/img/career/career_postdoc.jpg
       - title: "Bioinformatician"
         year: "2017-present"
-        desc: "Laboratory of Prof. Jorge Ruas, Karolinska Institutet, Sweden."
+        desc: "**Laboratory of Prof. Jorge Ruas, Karolinska Institutet, Sweden.** Responsible for the development of automated pipelines, data manipulation and visualisation for Next Generation Sequencing analysis, administration of Unix server for computational analysis."
         image: assets/img/career/career_bioinformatician.jpg
     end: "Looking <br> for New <br> Opportunities!"
-
 
   # selected publications
   # https://www.science.org/doi/full/10.1126/science.aaf9794
@@ -221,12 +220,12 @@ en: &DEFAULT_EN
         bibliography: "Mol Cell Biol. 2011 Jan;31(1):179-89. doi: 10.1128/MCB.00550-10. Epub 2010 Oct 25."
         link: "https://journals.asm.org/doi/10.1128/MCB.00550-10"
   
-  team:
+  hobbies:
     title: "HOBBIES"
     text: "What I like to spend my free time on"
     subtext: ""
-    section: team
-    people:
+    section: hobbies
+    list:
       - name: "Bass Guitar"
         role: "And guitar when the time permits."
         image: assets/img/hobbies/bass_guitar.jpg
