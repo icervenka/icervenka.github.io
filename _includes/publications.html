@@ -5,30 +5,34 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].publications.title |
-                    default:
-                    "Publications" }}</h2>
+                    default: "Publications" }}</h2>
                 {% if site.data.sitetext[site.locale].publications.text %}
                 <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].publications.text | markdownify }}</h3>
                 {% endif %}
             </div>
         </div>
 
-        <div class="card-slider">
-            <div class="inner">
-                <ul>
-                    {% for publication in site.data.sitetext[site.locale].publications.list %}
-                        {% include slider_card.html pub = publication %}
-                    {% endfor %}
-                </ul>
-            </div>
+        <div id="carouselPublications" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
 
-            <div class="card-slider-header ">
-                <div class="slider-nav text-center">
-                    <button data-direction="prev" class="btn btn-secondary btn-lg disabled">Prev</button>
-                    <button data-direction="next" class="btn btn-secondary btn-lg">Next</button>
-                </div>
-            </div>
-        </div>
+            {% for publication in site.data.sitetext[site.locale].publications.list %}
+                {% if forloop.first %}
+                    {% assign active = " active" %}
+                {% else %}
+                    {% assign active = "" %}
+                {% endif %}
+                {% include carousel_slide.html pub = publication act = active %}
+            {% endfor %}
+
+            <a class="carousel-control-prev" href="#carouselPublications" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselPublications" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
 
     </div>
 </section>

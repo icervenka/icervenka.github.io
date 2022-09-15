@@ -1,0 +1,15 @@
+<div class="{{ 'carousel-item' | append: include.act }}">
+
+    <div class="d-block publication-image" style="{{ 'background-image: url(' | append: include.pub.image | append: ');' }}"></div>
+    <div class="publication-data">
+        <div class="publication-author-list">
+            <a href="{{ include.pub.link }}"><p class="publication-title">{{ include.pub.title }} <i class="fa-solid fa-right-from-bracket"></i></p></a>
+        </div>
+        <div class="publication-author-list">
+            {{ include.pub.author_list | markdownify }}
+        </div>
+        <div class="publication-bibliography">
+            {{ include.pub.bibliography }}
+        </div>
+    </div>
+</div>
