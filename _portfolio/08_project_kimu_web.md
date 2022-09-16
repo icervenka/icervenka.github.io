@@ -1,17 +1,15 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: KI-MU
+subtitle: Webpage for scientific exchange program between Masaryk University and Karolinska Institutet
+image: assets/img/portfolio/kimu_webpage_thumb.png
+alt: KI-MU web screenshot
 
 caption:
-  title: KIMU 
+  title: KI-MU 
   subtitle: Scientific Exchange Program Webpage
   thumbnail: assets/img/portfolio/kimu_webpage_thumb.png
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: 2012
+- Category: Webpage

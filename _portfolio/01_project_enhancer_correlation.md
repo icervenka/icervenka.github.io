@@ -1,17 +1,17 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: Enhancer Correlation
+subtitle: Automated workflow in Snakemake for gene enhancer detection and correlation
+image: assets/img/portfolio/enhancer_correlation_programming_thumb.png
+alt: Enhancer Correlation - Github
 
 caption:
   title: Gene Enhancer Detection and Correlation
   subtitle: Automated Workflow
   thumbnail: assets/img/portfolio/enhancer_correlation_programming_thumb.png
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
+This pipeline will overlay enhancer information from genomic regions supplied as BED files with RNASeq data to identify correlations between gene and enhancer expression. Pipeline can combine data from several types of experiments such as ATACSeq, GROSeq, CHIPSeq of various histone marks as well as removing ones that fall within coding regions. Requires both polyA depleted and polyA enriched sequencing from a similar set of samples. Created for project where we wanted to identify gene-enhancer pairs that change in skeletal muscle after intense exercise.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: 2021
+- Category: Workflow Automation

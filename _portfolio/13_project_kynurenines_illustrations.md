@@ -1,17 +1,15 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: Kynurenines
+subtitle: Scienfitic illustrations for a literature review
+image: assets/img/portfolio/kynurenines_illustration_thumb.png
+alt: Kynurenines review illustrations panel
 
 caption:
-  title: Kynurenine Pathway
+  title: Kynurenines
   subtitle: Illustrations for Scientific Review
   thumbnail: assets/img/portfolio/kynurenines_illustration_thumb.png
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
 {:.list-inline}
 - Date: January 2017
-- Client: Threads
 - Category: Illustration

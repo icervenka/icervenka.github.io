@@ -1,17 +1,16 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: Clusterprofiler report generator
+subtitle: Automated workflow in Snakemake for running patways analysis data with clusterprofiler
+image: assets/img/portfolio/clusterprofiler_programming_thumb.png
+alt: Pathway analysis visualisation
 
 caption:
   title: Clusterprofiler report generator
   subtitle: Automated Workflow for RNASeq Pathway Analysis and Visualisation 
   thumbnail: assets/img/portfolio/clusterprofiler_programming_thumb.png
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: January 2020
+- Category: Workflow Automation

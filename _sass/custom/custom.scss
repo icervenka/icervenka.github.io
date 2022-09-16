@@ -1,5 +1,15 @@
-// Custom Images
+//------------------------------------------------------------------------------
+// Override of jekyll theme CSS
+//------------------------------------------------------------------------------
 
+// Page text -------------------------------------------------------------------
+.page-section h3.section-subheading {
+    font-weight: 300;
+    margin-bottom: 50px;
+    @include heading-font;
+}
+
+// Header Image ----------------------------------------------------------------
 header.masthead {
     color: #2F4251;
     background-position: center bottom;
@@ -58,6 +68,7 @@ header.masthead {
     width: 100%
 }
 
+// Navigation ------------------------------------------------------------------
 #mainNav {
     background-color: #CDC2B9;
 
@@ -95,6 +106,7 @@ header.masthead {
     }
 }
 
+// Timeline --------------------------------------------------------------------
 @media (min-width: 768px) {
     .timeline {
         >li {
@@ -103,17 +115,19 @@ header.masthead {
     }
 }
 
+// Footer ----------------------------------------------------------------------
 img.social {
     min-height: 30px;
     padding: 0 1em 0 0;
 }
 
-.page-section h3.section-subheading {
-    font-weight: 300;
-    margin-bottom: 50px;
-    @include heading-font;
-}
 
+
+//------------------------------------------------------------------------------
+// Custom CSS
+//------------------------------------------------------------------------------
+
+// Profile ---------------------------------------------------------------------
 .profile-image {
     width: 100%;
     border-radius: 10px 10px 10px 10px;
@@ -141,6 +155,18 @@ img.social {
     background-color: #4A545F;
 }
 
+// Portfolio -------------------------------------------------------------------
+div.project-description {
+    text-align: justify;
+}
+
+.project-description .list-inline {
+    text-align: center;
+    color: gray;
+    @include heading-font;
+}
+
+// Skills ----------------------------------------------------------------------
 .skill-heading {
     font-size: 26px;
     color: #2F4251;
@@ -160,6 +186,7 @@ img.social {
     margin-bottom: 0px;
 }
 
+// Publications ----------------------------------------------------------------
 .publication-image {
     height: 350px;
     background-position: center center;
@@ -175,7 +202,6 @@ img.social {
     max-height: 350px;
     width: 20%;
 }
-
 
 .publication-title {
     font-size: 20px;
