@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         icon: fa-solid fa-file-lines  
       - title: "[Current CV](assets/img/CV_igor_cervenka_2022.pdf)"
         icon: fa-solid fa-file-pdf  
-    profile_text: ""
+    profile_text: "I started my scientific journey by being born at a very young age in a small town in central Slovakia. As a kid I always liked computers, sports, and nature. We ran a club where school gave us malfunctioned computers and we tried to salvage what we could and create at least one that was bootable. But when I saw a biology program in the university brochure, with the possibility to specialize in Molecular Biology and Genetics, I knew this is a path for me, envisioning all sorts of mutants and genetically enhanced humans. I discovered very soon that the reality is somewhat more mundane, but fascinating nonetheless. After finishing my graduate studies, where I focused more on embryonic development and cancer, I moved to Stockholm to pursue another of my passions - sports - and joined Molecular and Cellular Exercise Physiology group, where I also decided to put my computer knowledge to good use and became sort of resident bioinformatician/ IT-support. I learned that there are many avenues in which computers can help scientists whether it’s helping people automate the boring stuff or create compelling visuals to present their results to the public. I am very grateful to have embarked on this journey, since I was able to acquire diverse assortment of skills, which would be difficult to get otherwise."
 
   portfolio:
     title: "Portfolio"

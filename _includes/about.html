@@ -15,14 +15,16 @@
     <div class="row text-center">
       <div class="col-md-6 col-lg-8">
         <img src="../assets/img/brno_stockholm.jpg" class="mb-5 profile-image" alt="">
-        <p class="profile-text">
-          {{ site.data.sitetext[site.locale].about.profile_text | markdownify }}
-        </p>
+        <div class="profile-text">
+          <p>
+            {{ site.data.sitetext[site.locale].about.profile_text | markdownify }}
+          </p>
+      </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <ul style="list-style-type: none;" class="p-0">
           {% for service in site.data.sitetext[site.locale].about.list %}
-          <li class="clearfix pt-1 pb-1">
+          <li class="clearfix pt-3 pb-1">
             <span class="fa-stack fa-2x float-left">
               <i class="fa-solid fa-circle fa-stack-2x text-primary"></i>
               <i class="{{ service.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
