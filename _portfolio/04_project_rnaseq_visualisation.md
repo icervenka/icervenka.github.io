@@ -10,6 +10,8 @@ caption:
   thumbnail: assets/img/portfolio/rnaseq_visualisation_programming_thumb.png
 ---
 
+This project started when the requests started to increase for publication-ready graphs for the RNASeq analysis that I did as a part of my bioinformatician duties. Currently the project is mostly a collection of functions that produce the most common graphs such as PCA, volcano plots, annotated heatmaps and pathway analysis graphs with interfaces accepting data from the most common R packages for RNASeq analysis. I tried to keep the functions as flexible as possible, with hopes of turning it one day into an R package if the time permits.
+
 
 {:.list-inline}
 - Date: January 2022
