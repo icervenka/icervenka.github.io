@@ -14,7 +14,7 @@
 
         <div id="carouselPublications" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-
+            
             {% for publication in site.data.sitetext[site.locale].publications.list %}
                 {% if forloop.first %}
                     {% assign active = " active" %}
@@ -24,8 +24,8 @@
                 {% include carousel_slide.html pub = publication act = active %}
             {% endfor %}
 
-            <a class="carousel-control-prev" href="#carouselPublications" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#carouselPublications" role="button" data-slide="prev"  style="color: black;">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black;"></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselPublications" role="button" data-slide="next">
