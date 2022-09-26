@@ -30,7 +30,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Some of the professional and hobby projects that I have worked on. For a more complete and in-depth list, please visit [my website](http://igorcervenka.com/) and my [github page](https://github.com/icervenka)"
+    text: "Some of the professional and hobby projects that I have worked on. For a more complete and in-depth list, please visit my [Github page](https://github.com/icervenka)"
     section: portfolio
     closebutton: "Close Project"
 
